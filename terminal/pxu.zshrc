@@ -151,3 +151,11 @@ source ~/BitScripts/envsetup.sh
 
 # heroku autocomplete setup
 HEROKU_AC_ZSH_SETUP_PATH=/Users/xupeter/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
+alias ssh_clouddesk="ssh xupeter-clouddesk.aka.corp.amazon.com"
+
+alias ll="ls -la"
+alias imgcat="/Users/xupeter/scripts/imgcat"
+alias remote-debug="/Users/xupeter/scripts/cld-remote-debug.sh"
+
+export DESKTOP=xupeter-clouddesk.aka.corp.amazon.com
+export AAA_PROXY_HOST=xupeter-clouddesk.aka.corp.amazon.com
