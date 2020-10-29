@@ -72,6 +72,7 @@ plugins=(
   vscode
 )
 
+export ZSH_DISABLE_COMPFIX="true"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -159,3 +160,6 @@ alias remote-debug="/Users/xupeter/scripts/cld-remote-debug.sh"
 
 export DESKTOP=xupeter-clouddesk.aka.corp.amazon.com
 export AAA_PROXY_HOST=xupeter-clouddesk.aka.corp.amazon.com
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+export PATH="/usr/local/opt/node@12/bin:$PATH"
+
